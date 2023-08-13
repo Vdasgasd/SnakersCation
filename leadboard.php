@@ -1,7 +1,7 @@
 <?php 
 require 'function.php';
 
-$player = query("SELECT * FROM leaderboard");
+$player = query("SELECT * FROM leaderboard ORDER BY hScore DESC");
 ?>
 <!DOCTYPE html>
 <html lang="en">

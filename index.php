@@ -1,22 +1,3 @@
-<?php 
-require 'function.php';
-if (isset($_POST["submit"])){
-    if(player($_POST,$score)>0){
-        echo "<script>
-        alert('data berhasil ditambahkan');
-        document.location.href = 'game.php';
-        </script>
-        ";
-    } else{
-        echo "<script>
-        alert('data gagal ditambahkan');
-        document.location.href = 'index.php';
-        </script>";
-        echo "<br>";
-        echo mysqli_error($conn);
-    }
-}
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -33,7 +14,7 @@ if (isset($_POST["submit"])){
 
 <div class="mainmenu_subcontainer">
 <h1>
-    Snake Games
+    SnakersCation
 </h1>	
 
 <div>

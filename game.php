@@ -17,8 +17,9 @@ require 'function.php';
 
 <body>
     <div class="container">
-
+	
         <div class="warpper">
+		
             <div class="detail">
                 <span class="score">score: 0</span>
                

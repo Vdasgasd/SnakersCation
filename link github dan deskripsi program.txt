@@ -1,0 +1,12 @@
+link github : https://github.com/Vdasgasd/SnakersCation
+
+contoh web : https://snakecation.000webhostapp.com/index.php 
+(terdapat bug dimana tidak bisa insert data kedalam database)
+
+
+deskripsi: game ini membuat player memainkan ular yang bertujuan untuk mendapatkan score terbesar
+program game ular menggunakan leaderboard sebagai acuan score terbesar
+player dapat menuliskan nama mererka untuk dimasukan kedalam leader board
+program ini dibuat hanya menggunakan PHP(API) MySQL(database) JavaScript(game logic) CSS(design)
+pada awlanya program ini dibuat untuk di hosting, karena satu dan lain hal program ini tidak bisa di hosting.
+

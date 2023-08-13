@@ -36,7 +36,7 @@ const randomFoodPos = () => {
 }
 const handleStatus = () => {
     clearInterval(setIntervalStat);
-    if (confirm("Press Button To replay")) {
+    if (confirm("Press Button OK To replay cancel to Submit Score")) {
         location.reload();
     }else{
         location.href = 'confirm.php';
