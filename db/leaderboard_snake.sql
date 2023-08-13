@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 13, 2023 at 09:08 AM
+-- Generation Time: Aug 13, 2023 at 09:35 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -38,14 +38,7 @@ CREATE TABLE `leaderboard` (
 --
 
 INSERT INTO `leaderboard` (`id`, `username`, `hScore`) VALUES
-(1, 'sandiaz', 20),
-(117, '', 0),
-(118, '', 0),
-(119, '', 0),
-(120, '', 1),
-(121, '', 1),
-(122, '', 2),
-(123, 'sss', 4);
+(1, 'sandiaz', 20);
 
 --
 -- Indexes for dumped tables
